@@ -9,7 +9,7 @@ app.use(bodyParser.json());
 
 const pool = mysql.createPool({
   connectionLimit: 10,
-  host: 'localhost',
+  host: 'nitishdb.crgecsfexqzw.ap-south-1.rds.amazonaws.com',
   user: 'root',
   password: 'root1234',
   port:'3306',
